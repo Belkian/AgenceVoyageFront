@@ -13,7 +13,7 @@ import { DefaultApolloClient } from "@vue/apollo-composable";
 
 
 const httpLink = createHttpLink({
-    uri: "http://localhost:8000/graphql/",
+    uri: "https://docker-clements.simplondevgrenoble.nohost.me/graphql/",
 });
 
 const cache = new InMemoryCache();
